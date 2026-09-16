@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Prueba_Talycap_Ecopetrol.Api/Prueba_Talycap_Ecopetrol.Api.csproj" />
+    <Project Path="src/Prueba_Talycap_Ecopetrol.DTOs/Prueba_Talycap_Ecopetrol.DTOs.csproj" />
+    <Project Path="src/Prueba_Talycap_Ecopetrol.Repositories/Prueba_Talycap_Ecopetrol.Repositories.csproj" />
+    <Project Path="src/Prueba_Talycap_Ecopetrol.Services/Prueba_Talycap_Ecopetrol.Services.csproj" />
+  </Folder>
+</Solution>

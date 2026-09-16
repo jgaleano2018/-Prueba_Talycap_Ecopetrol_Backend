@@ -1,0 +1,196 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_1",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Prueba_Talycap_Ecopetrol.Api.Controllers.ClientesController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[Prueba_Talycap_Ecopetrol.DTOs.Clientes.ClienteDto, Prueba_Talycap_Ecopetrol.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerTodosLosClientes"
+  },
+  {
+    "ContainingType": "Prueba_Talycap_Ecopetrol.Api.Controllers.ClientesController",
+    "Method": "ObtenerPorIdentificacion",
+    "RelativePath": "api/clientes/{identificacion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "identificacion",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Clientes.ClienteDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.ErrorResponseDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.ErrorResponseDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.ErrorResponseDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ],
+    "EndpointName": "ObtenerClientePorIdentificacion"
+  },
+  {
+    "ContainingType": "Prueba_Talycap_Ecopetrol.Api.Controllers.ClimaController",
+    "Method": "ObtenerTodas",
+    "RelativePath": "api/clima",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.PagedResultDto\u00601[[Prueba_Talycap_Ecopetrol.DTOs.Clima.ClimaCiudadDto, Prueba_Talycap_Ecopetrol.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.ErrorResponseDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ],
+    "EndpointName": "ObtenerClimaTodasLasCiudades"
+  },
+  {
+    "ContainingType": "Prueba_Talycap_Ecopetrol.Api.Controllers.ClimaController",
+    "Method": "ObtenerPorCiudades",
+    "RelativePath": "api/clima/ciudades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ciudades",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[Prueba_Talycap_Ecopetrol.DTOs.Clima.ClimaCiudadDto, Prueba_Talycap_Ecopetrol.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.ErrorResponseDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.ErrorResponseDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ],
+    "EndpointName": "ObtenerClimaPorCiudades"
+  },
+  {
+    "ContainingType": "Prueba_Talycap_Ecopetrol.Api.Controllers.PeliculasController",
+    "Method": "ObtenerTodas",
+    "RelativePath": "api/peliculas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.PagedResultDto\u00601[[Prueba_Talycap_Ecopetrol.DTOs.Peliculas.PeliculaDto, Prueba_Talycap_Ecopetrol.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Prueba_Talycap_Ecopetrol.DTOs.Comunes.ErrorResponseDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ],
+    "EndpointName": "ObtenerTodasLasPeliculas"
+  }
+]

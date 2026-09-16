@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Prueba_Talycap_Ecopetrol.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Prueba_Talycap_Ecopetrol.Api.Controllers.ClientesController">
+            <summary>
+            Endpoints REST para la gestión de clientes.
+            </summary>
+        </member>
+        <member name="M:Prueba_Talycap_Ecopetrol.Api.Controllers.ClientesController.ObtenerPorIdentificacion(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene los datos de un cliente a partir de su identificación.
+            Consume el stored procedure dbo.sp_ObtenerClientePorIdentificacion.
+            </summary>
+            <param name="identificacion">Identificación del cliente a consultar.</param>
+            <param name="cancellationToken">Token de cancelación.</param>
+            <response code="200">Cliente encontrado.</response>
+            <response code="400">La identificación enviada no es válida.</response>
+            <response code="404">No existe un cliente con la identificación indicada.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:Prueba_Talycap_Ecopetrol.Api.Controllers.ClientesController.ObtenerTodos(System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el listado completo de clientes registrados.
+            </summary>
+            <response code="200">Listado de clientes.</response>
+        </member>
+        <member name="T:Prueba_Talycap_Ecopetrol.Api.Controllers.ClimaController">
+            <summary>
+            Endpoints REST para la consulta del clima de varias ciudades.
+            </summary>
+        </member>
+        <member name="M:Prueba_Talycap_Ecopetrol.Api.Controllers.ClimaController.ObtenerTodas(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el clima de las ciudades registradas de forma paginada.
+            </summary>
+            <param name="page">Número de página (base 0). Por defecto 0.</param>
+            <param name="size">Cantidad de elementos por página. Por defecto 10, máximo 100.</param>
+            <param name="cancellationToken">Token de cancelación.</param>
+            <response code="200">Página solicitada del listado de clima por ciudad.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:Prueba_Talycap_Ecopetrol.Api.Controllers.ClimaController.ObtenerPorCiudades(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el clima de varias ciudades indicadas por nombre.
+            </summary>
+            <param name="ciudades">
+            Nombres de las ciudades separados por coma (por ejemplo: "Bogotá,Medellín").
+            Si se omite, se devuelven todas las ciudades registradas.
+            </param>
+            <param name="cancellationToken">Token de cancelación.</param>
+            <response code="200">Listado de clima de las ciudades solicitadas.</response>
+            <response code="400">No se enviaron ciudades válidas para consultar.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="T:Prueba_Talycap_Ecopetrol.Api.Controllers.PeliculasController">
+            <summary>
+            Endpoints REST para la consulta de películas.
+            </summary>
+        </member>
+        <member name="M:Prueba_Talycap_Ecopetrol.Api.Controllers.PeliculasController.ObtenerTodas(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el listado de películas registradas de forma paginada.
+            </summary>
+            <param name="page">Número de página (base 0). Por defecto 0.</param>
+            <param name="size">Cantidad de elementos por página. Por defecto 10, máximo 100.</param>
+            <param name="cancellationToken">Token de cancelación.</param>
+            <response code="200">Página solicitada del listado de películas.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="T:Prueba_Talycap_Ecopetrol.Api.Extensions.SwaggerExtensions">
+            <summary>
+            Configuración del servicio de Swagger (Swashbuckle) y de la
+            documentación OpenAPI de la API.
+            </summary>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Type)">
+            <summary>
+            Generates a documentation comment ID for a type.
+            Example: T:Namespace.Outer+Inner`1 becomes T:Namespace.Outer.Inner`1
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Reflection.PropertyInfo)">
+            <summary>
+            Generates a documentation comment ID for a property.
+            Example: P:Namespace.ContainingType.PropertyName or for an indexer P:Namespace.ContainingType.Item(System.Int32)
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Type,System.String)">
+            <summary>
+            Generates a documentation comment ID for a property given its container type and property name.
+            Example: P:Namespace.ContainingType.PropertyName
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.CreateDocumentationId(System.Reflection.MethodInfo)">
+            <summary>
+            Generates a documentation comment ID for a method (or constructor).
+            For example:
+              M:Namespace.ContainingType.MethodName(ParamType1,ParamType2)~ReturnType
+              M:Namespace.ContainingType.#ctor(ParamType)
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.GetTypeDocId(System.Type,System.Boolean,System.Boolean)">
+            <summary>
+            Generates a documentation ID string for a type.
+            This method handles nested types (replacing '+' with '.'),
+            generic types, arrays, pointers, by-ref types, and generic parameters.
+            The <paramref name="includeGenericArguments"/> flag controls whether
+            constructed generic type arguments are emitted, while <paramref name="omitGenericArity"/>
+            controls whether the generic arity marker (e.g. "`1") is appended.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OpenApi.Generated.DocumentationCommentIdHelper.NormalizeDocId(System.String)">
+            <summary>
+            Normalizes a documentation comment ID to match the compiler-style format.
+            Strips the return type suffix for ordinary methods but retains it for conversion operators.
+            </summary>
+            <param name="docId">The documentation comment ID to normalize.</param>
+            <returns>The normalized documentation comment ID.</returns>
+        </member>
+    </members>
+</doc>

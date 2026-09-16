@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\bin\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.deps.json
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\bin\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.dll
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\bin\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.pdb
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.sourcelink.json
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.dll
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\refint\Prueba_Talycap_Ecopetrol.DTOs.dll
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.pdb
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj\Debug\net10.0\ref\Prueba_Talycap_Ecopetrol.DTOs.dll
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj_build_check\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.deps.json
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj_build_check\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.dll
+C:\Users\USUARIO\Documents\Prueba_Talycap_Ecopetrol\-Prueba_Talycap_Ecopetrol_Backend\src\Prueba_Talycap_Ecopetrol.DTOs\obj_build_check\Debug\net10.0\Prueba_Talycap_Ecopetrol.DTOs.pdb
